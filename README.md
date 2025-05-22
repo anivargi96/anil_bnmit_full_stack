@@ -1,10 +1,10 @@
-#  Todo Summary Assistant
+ Todo Summary Assistant
 
 A full-stack productivity application that allows users to manage personal to-dos and generate a smart summary using a real LLM (OpenAI GPT). The summary is automatically sent to a Slack channel with a single click.
 
 ---
 
-##  Features
+ Features
 
 - Add, edit, and delete personal to-dos.
 - View list of all current to-dos.
@@ -15,9 +15,8 @@ A full-stack productivity application that allows users to manage personal to-do
 
 ---
 
-## 🧰 Tech Stack
 
-### Frontend
+ Frontend
 - Reactjs
    CSS
   HTML
@@ -37,13 +36,15 @@ A full-stack productivity application that allows users to manage personal to-do
 ---
 
 todo-summary-assistant/
-├── backend/ # Spring Boot App
+├── backend/ Spring Boot 
 │ ├── controller/
 │ ├── service/
 │ ├── repository/
 │ ├── model/
 │ └── application.properties
-├── frontend/ # React App
+├── frontend/ React App
 │ ├── src/
+| --Componets
+    |--TodoItems
 │ └── package.json
 
