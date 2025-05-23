@@ -1,20 +1,15 @@
  Todo Summary Assistant
-
-A full-stack productivity application that allows users to manage personal to-dos and generate a smart summary using a real LLM (OpenAI GPT). The summary is automatically sent to a Slack channel with a single click.
-
----
+A full-stack productivity application that allows users to manage personal to-dos and generated. The summary is automatically sent to a Slack channel with a single click.
 
  Features
-
-- Add, edit, and delete personal to-dos.
+- get Add, and delete personal to-dos.
 - View list of all current to-dos.
 - Click a button to:
-  - Summarize all pending to-dos using OpenAI GPT API.
+  - Summarize all pending to-dos using OpenAI
   - Send the summary to a configured Slack channel.
 - Success/failure toast notifications for Slack integration.
 
 ---
-
 
  Frontend
 - Reactjs
@@ -31,7 +26,7 @@ A full-stack productivity application that allows users to manage personal to-do
  Deployment
 - Frontend: Vercel
 - Backend: Render / Railway / Localhost
-- Database: MySQL (local or cloud)
+- Database: MySQL
 
 ---
 
